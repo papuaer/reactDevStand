@@ -26,10 +26,11 @@
             }
         }
         
-        // dom相关事件 和DOM操作的相关事件
+        // dom相关事件 和DOM操作的相关的放到该命名空间里
         domEvents () {
             let _this = this;
             let customeredEvents = _this.customeredEvents();
+            
             return {
                 // 相关的DOM操作;
                 changeRole: function () {
