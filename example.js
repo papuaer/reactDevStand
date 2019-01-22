@@ -1,3 +1,8 @@
+/**
+ * 案例文件 主要为了展示React的逻辑规范
+ * 里面的实现问题请忽略
+ */
+
 import React from 'react';
 import { connect } from 'react-redux';
 import {Toast } from 'antd-mobile';
