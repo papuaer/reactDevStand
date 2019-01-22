@@ -3,6 +3,7 @@
 ### 背景： 在React开发中，DOM事件和自定义事件散落在组件中，查找和修改都很麻烦。因此需要定义一套React开发的规范，约束事件的定义方式，方便维护。
 
 (```)
+
     class SendMessage extends  React.Component {
         constructor (props) {
             super(props);
@@ -48,6 +49,7 @@
             );
         }
     }
+    
 (```)
 
 
