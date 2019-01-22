@@ -17,6 +17,7 @@
         // 自定义事件 
         customeredEvents () {
             let _this = this;
+            
             return {
                 // 自定义事件1，比如获取处理数据
                 getInfoData: function () {
