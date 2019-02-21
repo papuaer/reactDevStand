@@ -7,19 +7,21 @@
     class SendMessage extends  React.Component {
         constructor (props) {
             super(props);
+            
+            this.state = {};
         }
         
-        this.state = {};
+        
         
         // 钩子事件
         componentDidMount () {}
         
-        // 自定义事件 
+        // 自定义方法
         customeredEvents () {
             let _this = this;
             
             return {
-                // 自定义事件1，比如获取处理数据
+                // 自定义方法1，比如获取处理数据
                 getInfoData: function () {
                     _this.xxxxxxxxx
                 }
